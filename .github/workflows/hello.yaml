@@ -29,7 +29,7 @@ jobs:
           echo "Variable d’environnement pour l’étape 2"
           echo "STEP2= ${{ vars.STEP2 }}" 
       
-       - name: Étape 3 - Variable Repository
+      - name: Étape 3 - Variable Repository
         run: |
           echo "Variable d’environnement pour l’étape 3"
           echo "STEP3= ${{ Secrets.STEP3 }}" 
